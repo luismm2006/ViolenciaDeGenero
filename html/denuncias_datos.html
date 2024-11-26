@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/denuncias.css">
+
+</head>
+<body>
+    <div>
+        <header>
+            <h1>VIOLENCIA DE GÉNERO DENUNCIAS</h1>
+        </header>
+    </div>
+    <div>
+        <nav>
+            <a href="./inicio_sesion.html">Inicio</a>
+            <a href="./noticias.html">Noticias</a>
+            <a href="./manifestaciones.html">Manifestaciones</a>
+        </nav>
+    </div>
+    <div class="contenedor">
+        <div class="correo">
+            <img src="../img/correo.png" alt="correo">
+            <h1>Introducir datos de denuncia</h1>
+        </div>
+        <section class="form-section">
+            <h2>Introduce los datos</h2>
+            
+            <form action="#" method="POST">
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34" required>
+                
+                <label for="maltrato">Tipo de maltrato</label>
+                <select id="maltrato" name="maltrato" required>
+                    <option value="físico">Físico</option>
+                    <option value="emocional">Emocional</option>
+                    <option value="psicológico">Psicológico</option>
+                    <option value="sexual">Sexual</option>
+                </select>
+                
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+                
+                <label for="explicacion">Explicación del suceso</label>
+                <textarea id="explicacion" name="explicacion" rows="4" placeholder="Escribe aquí..." required></textarea>
+                
+                <div class="buttons">
+                    <a href="./asistencia_correo.html"><button type="button">Enviar</button></a>
+                    <a href="./denuncias.html"><button type="button">Volver</button></a>
+                </div>
+            </form>
+        </section>
+        <div class="boton_salir">
+            <a href="../index.html">
+                <button type="button">Salir</button>
+            </a>
+        </div>
+    </div>
+    </body>
+    </html>

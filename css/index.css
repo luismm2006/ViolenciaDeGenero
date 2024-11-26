@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(../img/fondo_principio.png);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(221,144,241,255);
+}
+
+
+h1 {
+    color: white;
+    background-color: rgb(209, 42, 209);
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;  
+    padding: 10px; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    width: 20%; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 10px;
+}
+label{
+    font-size: 20px;
+    color: white;
+    margin-top:70px;
+
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; 
+    max-width: 300px; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 0; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(209, 42, 209);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#mensaje_correo_verificacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#volver_de_correo_verificacion{
+    color: white;
+    background-color: rgb(209, 42, 209);
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;  
+    padding: 10px; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    width: 10%; 
+}
